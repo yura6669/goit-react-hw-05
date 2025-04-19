@@ -1,10 +1,9 @@
 import toast, { Toaster } from 'react-hot-toast';
 import { BiMoviePlay } from "react-icons/bi";
-import css from './SearchBar.module.css';
+import css from './SearchField.module.css';
 
 
-
-const SearchBar = ({ onSearch }) => {
+const SearchField = ({ onSearch }) => {
     const handleSubmit = (event) => { 
     event.preventDefault();
     const query = event.target.elements.query.value.trim();
@@ -43,4 +42,4 @@ const SearchBar = ({ onSearch }) => {
   )
 }
 
-export default SearchBar
+export default SearchField

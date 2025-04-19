@@ -1,4 +1,4 @@
-import SearchBar from '../../components/SearchBar/SearchBar';
+import SearchField from '../../components/SearchField/SearchField';
 import { useState, useEffect, useRef } from 'react';
 import { getApiKey, searchFilms } from '../../core/api';
 import axios from 'axios';
@@ -77,7 +77,7 @@ const MoviesPage = () => {
 
   return (
       <>
-          <SearchBar onSearch={onSearch} />
+          <SearchField onSearch={onSearch} />
           {movies.length > 0 && <MovieList movies={movies} />}
           {isShowLoadMoreBtn && <LoadMoreBtn onLoadMore={onLoadMore} />}
           {isLoading && <Loader />}
