@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 25% auto;
+}
+
+.message {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+}
+
+.message span {
+  color: blue;
+}

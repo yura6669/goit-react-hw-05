@@ -1,0 +1,20 @@
+.loadMoreBtn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 300px;
+  border-radius: 4px;
+  margin-top: 25px;
+  border: none;
+  font-size: 20px;
+  margin-bottom: 40px;
+  background-color: black;
+  box-shadow: 0 0 20px black;
+  color: white;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.loadMoreBtn:hover {
+  background-color: blue;
+  color: white;
+}

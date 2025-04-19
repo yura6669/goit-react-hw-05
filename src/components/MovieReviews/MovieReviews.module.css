@@ -1,0 +1,57 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  margin-top: 25px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 40px black;
+  border-radius: 10px;
+}
+
+.itemInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to bottom, black, blue, black);
+  color: white;
+  padding: 5px 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.itemInfoName {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.itemInfoDate {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.itemComment {
+  color: white;
+  background-color: black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.noComments {
+  color: white;
+  text-align: center;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+}

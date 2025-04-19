@@ -1,0 +1,37 @@
+.additionaContainer {
+  background-image: linear-gradient(to top, black, blue, black);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 40px blue;
+  padding: 10px 0;
+}
+
+.additionalTitle {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.additionalList {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.additionalItem {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.additionalItem:hover,
+.additionalItem:focus {
+  font-weight: bold;
+}
+
+.active {
+  box-shadow: 0 0 20px white;
+  font-weight: bold;
+}

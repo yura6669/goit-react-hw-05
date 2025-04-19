@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px 80px;
+  box-shadow: 0 2px 20px blue;
+  position: fixed;
+  width: 90%;
+  top: 0;
+  z-index: 1000;
+}
+
+.title {
+  color: white;
+  font-size: 24px;
+}
+
+.title span {
+  color: blue;
+}
+
+.nav {
+  display: flex;
+  column-gap: 25px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.link:hover,
+link:focus {
+  color: blue;
+}
+
+.active {
+  color: blue;
+  font-weight: bold;
+}

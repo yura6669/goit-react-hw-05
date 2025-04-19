@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  column-gap: 30px;
+  align-items: start;
+  margin: 30px 0;
+  background-image: linear-gradient(to top, black, blue, black);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 40px black;
+}
+
+.poster {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px blue;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 10px 0;
+  row-gap: 20px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.score {
+  font-size: 18px;
+}
+
+.score span {
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.overview {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.genres {
+  display: flex;
+  column-gap: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
