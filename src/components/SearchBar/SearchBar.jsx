@@ -1,4 +1,3 @@
-import React from 'react'
 import toast, { Toaster } from 'react-hot-toast';
 import { BiMoviePlay } from "react-icons/bi";
 import css from './SearchBar.module.css';
